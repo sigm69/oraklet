@@ -66,7 +66,7 @@ if player100 == "stand":
     print(" ")
 else: 
     if player1000 == "stand":
-        print((-carddraw)+str(carddraw3)+str(carddraw5))
+        print(str(-carddraw)+str(carddraw3)+str(carddraw5))
     else: 
         player10000 = input(player1+"-hit or stand-")
         if player10000 == "hit":
@@ -79,7 +79,7 @@ if player200 == "stand":
     print(" ")
 else: 
     if player2000 == "stand":
-        print((-carddraw2)+str(carddraw4)+str(carddraw6))
+        print(str(-carddraw2)+str(carddraw4)+str(carddraw6))
     else: 
         player20000 = input(player2+"-hit or stand-")
         if player20000 == "hit":
@@ -88,18 +88,14 @@ else:
         else:
             print(player2+ str(carddraw2+carddraw4+carddraw5+carddraw6))
 
-if (carddraw+carddraw3+carddraw5) or (carddraw2+carddraw4+carddraw6) > (deler+deler2) :
-    print (delers+("-har-")+str(deler+deler2))
+if (carddraw+carddraw3+carddraw5) or (carddraw2+carddraw4+carddraw6) > (deler+deler2):
+    print (delers+("-har-")+str(deler+deler2+deler3))
 else: 
-    print(delers)+("-har-")+str(deler+deler2+deler3)
+    print(delers)+("-har-")+str(deler+deler2)
+if (carddraw+carddraw3+carddraw5) or (carddraw2+carddraw4+carddraw6) > (deler+deler2):
     if (carddraw+carddraw3+carddraw5+carddraw7) or (carddraw2+carddraw4+carddraw6+carddraw8) > (deler+deler2+deler3):
-        print (delers+("-har-")+str(deler+deler2+deler3))
-    else:
-        print (delers+("-har-")+str(deler+deler2+deler3+deler4))
-        if (carddraw+carddraw3+carddraw5+carddraw7+carddraw9) or (carddraw2+carddraw4+carddraw6+carddraw8+carddraw10) > (deler+deler2+deler3):
-            print (delers+("-har-")+str(deler+deler2+deler3+deler4+deler5))
-        else:
-            print (delers+("-har-")+str(deler+deler2+deler3+deler4))
+        print ((delers)+("-har-")+str(deler+deler2+deler3+deler4))
+        if (carddraw+carddraw3+carddraw5+carddraw7+carddraw9) or (carddraw2+carddraw4+carddraw6+carddraw8+carddraw10) > (deler+deler2+deler3+deler4):
+            print ((delers)+("-har-")+str(deler+deler2+deler3+deler4+deler5))
 
-print("du van")
     
